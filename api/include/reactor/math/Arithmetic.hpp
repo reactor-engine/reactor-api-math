@@ -11,7 +11,12 @@ template <typename T>
 class Arithmetic {
 public:
 
+    static T abs(const T x);
+    static T sqr(const T x);
     static T sqrt(const T x);
+
+    static T min(const T a, const T b);
+    static T max(const T a, const T b);
 
 };
 
