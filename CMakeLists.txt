@@ -7,6 +7,6 @@ set(SOURCE_FILES
     )
 
 include_directories(
-        ../reactor-api-type/api/include)
+        ../reactor-api-common/api/include)
 
 #add_executable(reactor_api_math ${SOURCE_FILES})

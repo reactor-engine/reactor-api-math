@@ -1,11 +1,11 @@
 #ifndef REACTOR_MATH_ARITHMETIC_HPP
 #define REACTOR_MATH_ARITHMETIC_HPP
 
-#include "reactor/type/types.hpp"
+#include "reactor/common/type/types.hpp"
 
 namespace reactor { namespace math {
 
-using namespace reactor::type;
+using namespace reactor::common::type;
 
 template <typename T>
 class Arithmetic {
